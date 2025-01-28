@@ -25,6 +25,7 @@
     border-radius: 10px;
     background-color: white;
     position: relative;
+    cursor: pointer;
 }
 
 .z-5 {
@@ -196,8 +197,6 @@ ul li a {
     right: 0%;
 }
 
-
-/* takenomics */
 .poopins-font {
     font-family: "Poppins", sans-serif;
 }
