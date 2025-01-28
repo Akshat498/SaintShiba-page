@@ -575,7 +575,6 @@ button.accordion-button.collapsed {
     padding-bottom: 60px;
 }
 
-/* hero section  risponsive */
 
 @media (max-width:1700px) {
     .circ-line {
@@ -610,10 +609,9 @@ button.accordion-button.collapsed {
     }
 
     .nav-link {
-        margin: auto !important;
         display: flex !important;
         flex-direction: column !important;
-        background: brown !important;
+        background: black !important;
         width: 100%;
         min-height: 100vh;
         position: fixed;
@@ -664,7 +662,6 @@ button.accordion-button.collapsed {
     }
 }
 
-/* section one responsive */
 @media (max-width:1260px) {
     .max-1260-p-releative {
         position: relative !important;
@@ -724,12 +721,10 @@ button.accordion-button.collapsed {
 
 @media (min-width:576px) {
     .tokenomics-border {
-        border: 1px solid var(--fc-slate-gray) !important;
-        border-bottom: none !important;
-        /* backdrop-filter: blur(32px);
+        backdrop-filter: blur(32px);
         border: 1px solid;
         
-            border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%); */
+            border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%) 1;
     }
 
     .table-border-right {
@@ -765,7 +760,7 @@ button.accordion-button.collapsed {
 
 }
 
-/* roadmap responsive */
+
 @media screen and (min-width: 768.99px) {
     .md-text-right {
         text-align: right !important;
@@ -855,13 +850,13 @@ button.accordion-button.collapsed {
     }
 }
 
-/* hwo to buy responsive */
 @media (max-width:1200px) {
     .img-2 {
         margin-left: 0px;
         padding-left: 30px;
         padding-right: 30px;
         margin-top: 60px;
+        margin: 60px ;
         margin-bottom: 20px;
     }
 
