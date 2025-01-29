@@ -173,6 +173,7 @@
 }
 
 .menuLink {
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     padding-top: 27px;
@@ -324,10 +325,6 @@ ul li a {
     margin-bottom: 59px;
 }
 
-.color_gradient{
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-}
-
 .design-section {
     display: flex;
     flex-direction: column;
@@ -350,6 +347,7 @@ ul li a {
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     backdrop-filter: blur(32px);
     border: 1px solid;
+    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
 }
 
 .table-box {
@@ -365,7 +363,7 @@ ul li a {
     padding-bottom: 1px;
     padding-left: 1px;
     padding-right: 1px;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.1) 103.14%);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -391,7 +389,7 @@ ul li a {
     margin-top: 50px;
 }
 
-.accordion-bottom-layer {
+/* .accordion-bottom-layer {
     position: absolute;
     right: -50% !important;
 }
@@ -404,28 +402,22 @@ ul li a {
 
 .accordion {
     border: none transparent !important;
-}
+} */
 
 .accordion-body {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.09) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
-    backdrop-filter: blur(32px) !important;
 }
 
-.accordion-item {
+/* .accordion-item {
     border-radius: 10px !important;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
-    backdrop-filter: blur(32px) !important;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
 }
 
 .accordion-button {
     border-top-right-radius: 10px !important;
     border-top-left-radius: 10px !important;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
-    backdrop-filter: blur(32px) !important;
 }
-
 
 .accordion-button:focus {
     z-index: 0 !important;
@@ -436,11 +428,11 @@ ul li a {
 .accordion-button:not(.collapsed) {
     color: white !important;
     box-shadow: none !important;
-}
+} */
 
-.accordion-button {
+/* .accordion-button {
     color: white;
-}
+}  */
 
 .accordion-para {
     font-size: var(--fs-md);
@@ -449,30 +441,29 @@ ul li a {
 
 }
 
-.bg-black {
+/* .bg-black {
     background-color: black;
-}
+} */
 
-button.accordion-button {
+/* button.accordion-button {
     color: white;
 }
 
-/* .accordion-item:not(:first-of-type) {
+.accordion-item:not(:first-of-type) {
     border-top: 1px solid !important;
-} */
+}
 
 .accordion-item {
-    border: 0px solid;
-    /* border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%); */
+    border: 1px solid;
+    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%) 1 ;
 
     backdrop-filter: blur(16px);
-}
-
-button.accordion-button.collapsed {
-    /* border: 1.9px solid #414141; */
+} */
+/* button.accordion-button.collapsed {
+    border: 1.9px solid #414141;
     border-radius: 10px !important;
 
-}
+}  */
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(/assets/images/svg/acc-arrow.svg) !important;
@@ -480,23 +471,6 @@ button.accordion-button.collapsed {
 
 .accordion-button::after {
     background-image: url(/assets/images/svg/acc-arrow.svg) !important;
-}
-
-.accordion-border-line {
-    position: relative;
-}
-
-.accordion-border-line::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 10px;
-    padding: 1px;
-    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%) !important;
-    mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0);
-    mask-composite: exclude;
 }
 
 /* how to buy css */
@@ -922,4 +896,48 @@ button.accordion-button.collapsed {
         padding-bottom: 456px;
     }
 
+}
+
+
+
+
+
+
+
+
+ .accordion {
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-border-width: none !important;
+    width: 100%;
+    margin-top: 46px !important;
+}
+
+ .accordion-button {
+    margin-top: 24px !important;
+    padding: 16px 22px 16px 16px !important;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    backdrop-filter: blur(32px) !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+ .accordion-body {
+    padding: 0px 16px 16px 16px !important;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    backdrop-filter: blur(32px) !important;
+}
+
+ .accordion-item {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    backdrop-filter: blur(32px) !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+ .accordion-button:not(.collapsed) {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }

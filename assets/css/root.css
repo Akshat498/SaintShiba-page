@@ -9,11 +9,11 @@
 
     --poppins-font: "Poppins", serif;
 
-    --lh-1:32.4px;
-    --lh-2:33px;
-    --lh-3:54px;
-    --lh-4:61.44px;
-    --lh-5:95.52px;
+    --lh-32:32.4px;
+    --lh-33:33px;
+    --lh-54:54px;
+    --lh-61:61.44px;
+    --lh-95:95.52px;
 
 
 
@@ -120,24 +120,24 @@
     font-family: "Poppins", serif;
 }
 
-.lh-1{
-    line-height: var(--lh-1) !important;
+.lh-32{
+    line-height: var(--lh-32) !important;
 }
 
-.lh-2{
-    line-height: var(--lh-2) !important;
+.lh-33{
+    line-height: var(--lh-33) !important;
 }
 
-.lh-3{
-    line-height: var(--lh-3) !important;
+.lh-54{
+    line-height: var(--lh-54) !important;
 }
 
-.lh-4{
-    line-height: var(--lh-4) !important;
+.lh-61{
+    line-height: var(--lh-61) !important;
 }
 
-.lh-5{
-    line-height: var(--lh-5) !important;
+.lh-95{
+    line-height: var(--lh-95) !important;
 }
 
 
